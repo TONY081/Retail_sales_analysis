@@ -1,0 +1,108 @@
+🔹 Step 1: Get the Dataset
+Download the Superstore dataset:
+
+Kaggle Link (or search: “Sample Superstore dataset Kaggle”)
+
+The file is usually a .csv or .xlsx
+
+Save it locally with a clear name like Superstore_Sales_Data.xlsx
+
+🔹 Step 2: Understand the Dataset
+Explore the columns. Key ones include:
+
+Order Date, Ship Date
+
+Region, State, City
+
+Category, Sub-Category, Product Name
+
+Sales, Profit, Discount, Quantity
+
+Customer Name, Segment
+
+Familiarize yourself with:
+
+What each column represents
+
+Which columns are numerical vs categorical
+
+🔹 Step 3: Data Cleaning (in Excel)
+Do this in a separate sheet called "Cleaned Data".
+
+Remove duplicates
+
+Check for blanks/nulls
+
+Format:
+
+Dates as Short Date
+
+Currency columns like Sales, Profit
+
+Fix inconsistent data entries (e.g., spelling errors, extra spaces using TRIM())
+
+🔹 Step 4: Basic Analysis Using Pivot Tables
+Go to a new sheet called "Pivot Analysis".
+
+Create Pivot Tables to answer these questions:
+
+✅ Sales performance
+
+Total Sales & Profit by Region
+
+Sales by Category and Sub-Category
+
+Top 10 products by Sales and Profit
+
+✅ Profitability
+
+Products with highest/lowest profit
+
+State-level profit analysis
+
+Discounts vs. Profit — are big discounts hurting profits?
+
+✅ Customer Segment Analysis
+
+Profit by Segment (Consumer, Corporate, Home Office)
+
+Use slicers (filters) for Region, Category, etc.
+
+🔹 Step 5: Create Visualizations
+Use Pivot Charts:
+
+Bar charts (Sales by Region)
+
+Line chart (Sales over time)
+
+Pie chart (Segment-wise sales)
+
+Map (if available) to show state-wise performance (optional)
+
+Make a clean, single-page Dashboard sheet with:
+
+KPI Cards (Total Sales, Profit, Quantity)
+
+Key charts
+
+Filters for Region, Segment, etc.
+
+🔹 Step 6: Insights & Conclusions
+On a new sheet called "Insights", write 4–6 bullet points:
+
+“The West region generated the highest profit despite fewer orders.”
+
+“Office Supplies had high sales but low margins due to heavy discounting.”
+
+“The Corporate segment had the highest average order value.”
+
+This shows your ability to interpret data, not just crunch numbers.
+
+🔹 Step 7: Optional - Expand to Power BI or Tableau
+If you want to upgrade the visual appeal and interactivity:
+
+Load the Excel file into Power BI
+
+Create interactive dashboards with filters, slicers, drill-throughs
+
+Publish your dashboard and link it in your resume
